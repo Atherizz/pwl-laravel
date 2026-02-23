@@ -14,7 +14,7 @@ Halaman utama yang menampilkan informasi awal website dengan statistik dan quick
 
 **Screenshot:**
 
-![Halaman Home](./screenshot/home.png)
+![Halaman Home](/PWL-POS/screenshot/home.png)
 
 ---
 
@@ -24,19 +24,19 @@ Menampilkan daftar produk berdasarkan kategori dengan menggunakan route prefix.
 #### Kategori yang tersedia:
 1. **Food & Beverage**
    - Route: `/category/food-beverage`
-   - Screenshot: ![Food & Beverage](screenshot/food-beverage.png)
+   - Screenshot: ![Food & Beverage](/PWL-POS/screenshot/food-beverage.png)
 
 2. **Beauty & Health**
    - Route: `/category/beauty-health`
-   - Screenshot: ![Beauty & Health](screenshot/beauty-health.png)
+   - Screenshot: ![Beauty & Health](/PWL-POS/screenshot/beauty-health.png)
 
 3. **Home Care**
    - Route: `/category/home-care`
-   - Screenshot: ![Home Care](screenshot/home-care.png)
+   - Screenshot: ![Home Care](/PWL-POS/screenshot/home-care.png)
 
 4. **Baby & Kid**
    - Route: `/category/baby-kid`
-   - Screenshot: ![Baby & Kid](screenshot/baby-kid.png)
+   - Screenshot: ![Baby & Kid](/PWL-POS/screenshot/baby-kid.png)
 
 **Controller:** `ProductController@category`
 
@@ -57,7 +57,7 @@ Menampilkan profil pengguna dengan route parameter (id dan name).
 
 **Screenshot:**
 
-![User Profile](screenshot/user-profile.png)
+![User Profile](/PWL-POS/screenshot/user-profile.png)
 
 ---
 
