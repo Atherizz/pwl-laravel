@@ -1,22 +1,22 @@
 ## Praktikum 1
 
 ### Route user
-![Screenshot](/report/week-2/img/user.png)
+![Screenshot](/PWL-2026/report/week-2/img/user.png)
 
 ### Route posts/{id}/comment
-  ![Screenshot](/report/week-2/img/praktikum-1.png)
+  ![Screenshot](/PWL-2026/report/week-2/img/praktikum-1.png)
 
 ###  Membuat route /articles/{id} yang akan menampilkan output “Halaman Artikel  dengan ID {id}”
 
- ![Screenshot](/report/week-2/img/artikel.png)
+ ![Screenshot](/PWL-2026/report/week-2/img/artikel.png)
 
  ### Optional Parameter
 
 Tanpa Parameter
-![Screenshot](/report/week-2/img/without-param.png)
+![Screenshot](/PWL-2026/report/week-2/img/without-param.png)
 
 Dengan Parameter
-![Screenshot](/report/week-2/img/user.png)
+![Screenshot](/PWL-2026/report/week-2/img/user.png)
 
 ## Praktikum 2
 
@@ -98,7 +98,7 @@ Route::get('/greeting', function () {
 ```
 
 #### Output Route /greeting
-![Screenshot](/report/week-2/img/greeting-route.png)
+![Screenshot](/PWL-2026/report/week-2/img/greeting-route.png)
 
 **Pengamatan:**
 View dapat dipanggil melalui helper function `view()` dengan parameter pertama adalah nama file (tanpa `.blade.php`) dan parameter kedua adalah array data yang akan dikirim ke view. Data dapat diakses di view menggunakan sintaks Blade `{{ $variable }}`.
