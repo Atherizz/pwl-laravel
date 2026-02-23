@@ -157,7 +157,10 @@ View `hello.blade.php` diupdate untuk menampilkan 2 parameter:
 ```
 
 **Pengamatan:**
-Method `with()` memberikan alternatif untuk passing data ke view dengan cara yang lebih readable, terutama ketika data yang dikirim banyak. Method ini dapat di-chain berkali-kali untuk mengirim multiple data. Di view, semua variable yang dikirim dapat diakses langsung menggunakan sintaks Blade `{{ $variable }}`.
+Method `with()` memberikan alternatif untuk passing data ke view dengan cara yang lebih readable, terutama ketika data yang dikirim banyak. Method ini dapat di-chain berkali-kali untuk mengirim multiple data. Di view, semua variable yang dikirim dapat diakses langsung menggunakan sintaks Blade `{{ $variable }}`
+
+## Tugas
+- [📄 Week 2 - Tugas](../../../PWL-POS/README.md).
 
 
 
