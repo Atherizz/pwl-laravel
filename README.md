@@ -14,9 +14,10 @@ Repository untuk praktikum mata kuliah Pemrograman Web Lanjut menggunakan Larave
 
 Berikut adalah daftar laporan praktikum per minggu:
 
-- [📄 Week 1 - Inisialisasi Project Laravel](./PWL-2026/report/week-1/REPORT.md)
-- [📄 Week 2 - Routing, Controller & View](./PWL-2026/report/week-2/REPORT.md)
-- [📄 Week 2 - Tugas: Sistem POS Sederhana](./PWL-POS/README.md)
+- [📄 Jobsheet 1 - Inisialisasi Project Laravel](./PWL-2026/report/week-1/REPORT.md)
+- [📄 Jobsheet 2 - Routing, Controller & View](./PWL-2026/report/week-2/REPORT.md)
+- [📄 Jobsheet 2 - Tugas: Sistem POS Sederhana](./PWL-POS/README.md)
+- [📄 Jobsheet 3 - Migrations](./PWL-POS/report/REPORT.md)
 
 ## Requirements
 
