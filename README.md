@@ -17,7 +17,7 @@ Berikut adalah daftar laporan praktikum per minggu:
 - [📄 Jobsheet 1 - Inisialisasi Project Laravel](./PWL-2026/report/week-1/REPORT.md)
 - [📄 Jobsheet 2 - Routing, Controller & View](./PWL-2026/report/week-2/REPORT.md)
 - [📄 Jobsheet 2 - Tugas: Sistem POS Sederhana](./PWL-POS/README.md)
-- [📄 Jobsheet 3 - Migrations](./PWL-POS/report/REPORT.md)
+- [📄 Jobsheet 3 - Migrations](./PWL-POS/week-3/report/REPORT.md)
 
 ## Requirements
 
