@@ -14,22 +14,39 @@ class PostsTable
         return $table
             ->defaultSort('created_at', 'desc')
             ->columns([
+                \Filament\Tables\Columns\TextColumn::make('id')
+                    ->label('ID')
+                    ->toggleable(isToggledHiddenByDefault: true),
                 \Filament\Tables\Columns\TextColumn::make('title')
                     ->sortable()
-                    ->searchable(),
+                    ->searchable()
+                    ->toggleable(),
                 \Filament\Tables\Columns\TextColumn::make('slug')
                     ->sortable()
-                    ->searchable(),
+                    ->searchable()
+                    ->toggleable(),
                 \Filament\Tables\Columns\TextColumn::make('category.name')
+                    ->label('Category')
                     ->sortable()
-                    ->searchable(),
-                \Filament\Tables\Columns\ColorColumn::make('color'),
-                \Filament\Tables\Columns\ImageColumn::make('image')->disk('public'),
-                \Filament\Tables\Columns\IconColumn::make('published')->boolean(),
+                    ->searchable()
+                    ->toggleable(),
+                \Filament\Tables\Columns\TextColumn::make('tags')
+                    ->label('Tags')
+                    ->toggleable(isToggledHiddenByDefault: true),
+                \Filament\Tables\Columns\ColorColumn::make('color')
+                    ->toggleable(),
+                \Filament\Tables\Columns\ImageColumn::make('image')
+                    ->disk('public')
+                    ->toggleable(),
+                \Filament\Tables\Columns\IconColumn::make('published')
+                    ->boolean()
+                    ->label('Published')
+                    ->toggleable(),
                 \Filament\Tables\Columns\TextColumn::make('created_at')
                     ->label('Created At')
                     ->dateTime()
-                    ->sortable(),
+                    ->sortable()
+                    ->toggleable(),
             ])
             ->filters([
                 \Filament\Tables\Filters\Filter::make('created_at')
