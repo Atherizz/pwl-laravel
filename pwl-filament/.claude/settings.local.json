@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright__browser_navigate",
+      "Bash(php artisan *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8000/admin/login)"
+    ]
+  }
+}

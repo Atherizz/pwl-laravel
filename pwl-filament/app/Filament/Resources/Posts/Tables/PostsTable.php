@@ -32,7 +32,22 @@ class PostsTable
                     ->sortable(),
             ])
             ->filters([
-                //
+                \Filament\Tables\Filters\Filter::make('created_at')
+                    ->label('Creation Date')
+                    ->form([
+                        \Filament\Forms\Components\DatePicker::make('created_at')
+                            ->label('Select Date'),
+                    ])
+                    ->query(function ($query, $data) {
+                        return $query->when(
+                            $data['created_at'],
+                            fn ($query, $date) => $query->whereDate('created_at', $date)
+                        );
+                    }),
+                \Filament\Tables\Filters\SelectFilter::make('category_id')
+                    ->label('Select Category')
+                    ->relationship('category', 'name')
+                    ->preload(),
             ])
             ->recordActions([
                 EditAction::make(),
