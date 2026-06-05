@@ -57,7 +57,9 @@ class PostForm
                         ->description('Additional information about the post.')
                         ->icon('heroicon-o-tag')
                         ->schema([
-                            \Filament\Forms\Components\TagsInput::make('tags'),
+                            \Filament\Forms\Components\Select::make('tags')
+                                ->relationship('tags', 'name')
+                                ->multiple(),
                             \Filament\Forms\Components\Checkbox::make('published'),
                             \Filament\Forms\Components\DatePicker::make('published_at'),
                         ]),
